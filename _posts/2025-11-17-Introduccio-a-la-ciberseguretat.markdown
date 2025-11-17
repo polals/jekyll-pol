@@ -35,7 +35,7 @@ La ciberseguretat és l’art i la ciència de protegir sistemes informàtics, x
 
 ## Imatge Relacionada
 
-![Ciberseguretat](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cyber_Security_%2830406950287%29.jpg/640px-Cyber_Security_%2830406950287%29.jpg)
+![Ciberseguretat](/assets/images/papoi.jpeg)
 
 ---
 
