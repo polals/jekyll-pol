@@ -48,8 +48,9 @@ Exemples de conceptes de ciberseguretat mostrats amb text ~~ratllat~~ de forma d
 
 Aquest és un exemple típic amb fórmules:
 
-- L’aigua és **H~2~O**
-- El diòxid de carboni és **CO~2~**
+- L’aigua és H<sub>2</sub>O
+- El diòxid de carboni és CO<sub>2</sub>
+
 ---
 
 # Notes al peu (definicions)
