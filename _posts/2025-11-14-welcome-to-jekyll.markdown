@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Pàgina amb Sintaxi Avançada
 permalink: /pagina-amb-sintaxi-avançada/
 ---
