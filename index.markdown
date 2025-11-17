@@ -2,59 +2,60 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+---
 layout: page
 title: Pàgina amb Sintaxi Avançada
-permalink: /sintaxi-avançada/
+permalink: /pagina-amb-sintaxi-avançada/
 ---
 
 # Sintaxi Avançada en Markdown
 
-Aquesta pàgina mostra diferents elements de **Markdown avançat**, incloent taules, blocs de codi, strikethrough i més.[^intro]
+Aquesta pàgina mostra diversos elements avançats de Markdown utilitzats habitualment en documentació tècnica i ciberseguretat.[^que-es-md]
 
 ---
 
 ## Llista amb Strikethrough
 
-utilitzem text ~~ratllat~~ per destacar elements:
+Exemples de conceptes de ciberseguretat mostrats amb text ~~ratllat~~ de forma demostrativa:
 
-- ~~Seguretat~~
-- ~~Informàtica~~
-- ~~Alertes~~
-- ~~Celebració~~
-- ~~Protecció~~
+- ~~Atac~~
+- ~~Firewall~~
+- ~~Virus~~
+- ~~Spam~~
+- ~~Troià~~
 
 ---
 
 ## Task List
 
-Llista de tasques típiques en un projecte de ciberseguretat:
-
-- [x] Escanejar vulnerabilitats
-- [ ] Realitzar proves d’intrusió
-- [ ] Redactar l’informe final
-- [x] Analitzar logs del sistema
+- [x] Escanejar vulnerabilitats  
+- [ ] Realitzar proves d’intrusió  
+- [ ] Redactar l’informe final  
+- [x] Analitzar logs del sistema  
 
 ---
 
 ## Taula Informativa
 
-Una taula simple comparant eines de seguretat:
-
-| Eina          | Funció principal              | Nivell |
-|---------------|--------------------------------|--------|
-| **Nmap**      | Escaneig de ports              | Alt    |
-| **Wireshark** | Anàlisi de tràfic de xarxa     | Mig    |
-| **Metasploit**| Explotació de vulnerabilitats  | Alt    |
+| Eina          | Funció principal                    | Nivell |
+|---------------|--------------------------------------|--------|
+| **Nmap**      | Escaneig i detecció de ports         | Alt    |
+| **Wireshark** | Inspecció i captura de tràfic        | Mig    |
+| **Metasploit**| Explotació de vulnerabilitats        | Alt    |
 
 ---
 
-## Codi en Fenced Code Blocks
+## Exemple de Subscript (~)
 
-Exemple d'un escaneig amb Nmap:
+Aquest és un exemple típic amb fórmules:
 
-```bash
-# Escaneig de ports
-nmap -sV -Pn 192.168.1.20
+- L’aigua és **H~2~O**
+- El diòxid de carboni és **CO~2~**
+- Un nombre amb nota a peu de pàgina pot quedar així: X~1~
+- Índex d’una variable: var~i~
 
-# Escaneig de vulnerabilitats amb scripts
-nmap --script=vuln 192.168.1.20
+---
+
+# Notes al peu (definicions)
+
+[^que-es-md]: Markdown és un llenguatge de marcatge lleuger utilitzat per crear documents web de forma senzilla.
