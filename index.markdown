@@ -3,8 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Pàgina amb Sintaxi Avançada (Strikethrough)
-permalink: /sintaxi-avancada-st/
+title: Pàgina amb Sintaxi Avançada
+permalink: /sintaxi-avançada/
 ---
 
 # Sintaxi Avançada en Markdown
