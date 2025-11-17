@@ -36,7 +36,7 @@ Permet detectar punts febles i millorar la seguretat global de l’organització
 
 ## 🌐 Monitoratge i Detecció d’Amenaces
 
-![Cyber Monitoring](/assets/images/calamardobebo2.jpg)
+![Cyber Monitoring](/assets/images/calamardobebo2.jpeg)
 
 Supervisió contínua de sistemes i xarxes per detectar activitats sospitoses, malware i intents d’intrusió.  
 Inclou resposta a incidents i generació d’alertes en temps real.
