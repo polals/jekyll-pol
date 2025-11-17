@@ -3,32 +3,31 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page
-title: Pàgina amb Sintaxi Avançada
-permalink: /sintaxi-avancada/
+title: Pàgina amb Sintaxi Avançada (Strikethrough)
+permalink: /sintaxi-avancada-st/
 ---
 
-# Sintaxi Avançada en Markdown :sparkles:
+# Sintaxi Avançada en Markdown
 
-Aquesta pàgina mostra diversos elements de **Markdown avançat** compatibles amb Jekyll.  
-Això és especialment útil per enriquir la documentació, posts tècnics o pàgines informatives.
-
----
-
-## :rocket: Emoji Shortcodes
-
-Pots utilitzar emojis directament amb codis curts:
-
-- :shield: Seguretat
-- :computer: Informàtica
-- :fire: Alertes
-- :tada: Celebració  
-- :lock: Protecció
+Aquesta pàgina mostra diferents elements de **Markdown avançat**, incloent taules, blocs de codi, strikethrough i més.[^intro]
 
 ---
 
-## :white_check_mark: Task List
+## Llista amb Strikethrough
 
-Aquí tens una llista de tasques típica per un projecte de ciberseguretat:
+utilitzem text ~~ratllat~~ per destacar elements:
+
+- ~~Seguretat~~
+- ~~Informàtica~~
+- ~~Alertes~~
+- ~~Celebració~~
+- ~~Protecció~~
+
+---
+
+## Task List
+
+Llista de tasques típiques en un projecte de ciberseguretat:
 
 - [x] Escanejar vulnerabilitats
 - [ ] Realitzar proves d’intrusió
@@ -37,24 +36,24 @@ Aquí tens una llista de tasques típica per un projecte de ciberseguretat:
 
 ---
 
-## :books: Taula informativa
+## Taula Informativa
 
-Una taula simple per comparar eines de seguretat:
+Una taula simple comparant eines de seguretat:
 
-| Eina          | Funció principal         | Nivell |
-|---------------|---------------------------|--------|
-| **Nmap**      | Escaneig de ports         | Alt    |
-| **Wireshark** | Anàlisi de tràfic         | Mig    |
-| **Metasploit**| Explotació de vulnerabilitats | Alt |
+| Eina          | Funció principal              | Nivell |
+|---------------|--------------------------------|--------|
+| **Nmap**      | Escaneig de ports              | Alt    |
+| **Wireshark** | Anàlisi de tràfic de xarxa     | Mig    |
+| **Metasploit**| Explotació de vulnerabilitats  | Alt    |
 
 ---
 
-## :keyboard: Fenced Code Blocks
+## Codi en Fenced Code Blocks
 
-Un exemple de codi de ciberseguretat:
+Exemple d'un escaneig amb Nmap:
 
 ```bash
-# Escaneig de ports bàsic
+# Escaneig de ports
 nmap -sV -Pn 192.168.1.20
 
 # Escaneig de vulnerabilitats amb scripts
