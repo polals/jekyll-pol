@@ -1,29 +1,55 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2025-11-14 17:16:19 +0100
-categories: jekyll update
+layout: page
+title: Pàgina amb Sintaxi Avançada
+permalink: /pagina-amb-sintaxi-avançada/
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+# Sintaxi Avançada en Markdown
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Aquesta pàgina mostra diversos elements avançats de Markdown utilitzats habitualment en documentació tècnica i ciberseguretat.[^que-es-md]
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+---
 
-Jekyll also offers powerful support for code snippets:
+## Llista amb Strikethrough
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Exemples de conceptes de ciberseguretat mostrats amb text ~~ratllat~~ de forma demostrativa:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+- ~~Atac~~
+- ~~Firewall~~
+- ~~Virus~~
+- ~~Spam~~
+- ~~Troià~~
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+---
+
+## Task List
+
+- [x] Escanejar vulnerabilitats  
+- [ ] Realitzar proves d’intrusió  
+- [ ] Redactar l’informe final  
+- [x] Analitzar logs del sistema  
+
+---
+
+## Taula Informativa
+
+| Eina          | Funció principal                    | Nivell |
+|---------------|--------------------------------------|--------|
+| **Nmap**      | Escaneig i detecció de ports         | Alt    |
+| **Wireshark** | Inspecció i captura de tràfic        | Mig    |
+| **Metasploit**| Explotació de vulnerabilitats        | Alt    |
+
+---
+
+## Exemple de Subscript
+
+Aquest és un exemple típic amb fórmules:
+
+- L’aigua és H<sub>2</sub>O
+- El diòxid de carboni és CO<sub>2</sub>
+
+---
+
+# Notes al peu (definicions)
+
+[^que-es-md]: Markdown és un llenguatge de marcatge lleuger utilitzat per crear documents web de forma senzilla.
