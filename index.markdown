@@ -2,7 +2,6 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
----
 layout: page
 title: Pàgina amb Sintaxi Avançada
 permalink: /pagina-amb-sintaxi-avançada/
@@ -51,9 +50,6 @@ Aquest és un exemple típic amb fórmules:
 
 - L’aigua és **H~2~O**
 - El diòxid de carboni és **CO~2~**
-- Un nombre amb nota a peu de pàgina pot quedar així: X~1~
-- Índex d’una variable: var~i~
-
 ---
 
 # Notes al peu (definicions)
