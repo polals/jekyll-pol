@@ -18,7 +18,7 @@ Realització d’atacs controlats per identificar vulnerabilitats en xarxes, apl
 Els informes inclouen evidències, risc assignat i recomanacions de mitigació.
 
 👉 **Més informació:**  
-[Visita la web](https://owasp.org/www-community/penetration-testing/)
+[Visita la web](https://owasp.org/www-project-web-security-testing-guide/latest/3-The_OWASP_Testing_Framework/1-Penetration_Testing_Methodologies)
 
 ---
 
@@ -36,12 +36,12 @@ Permet detectar punts febles i millorar la seguretat global de l’organització
 
 ## 🌐 Monitoratge i Detecció d’Amenaces
 
-![Cyber Monitoring](/assets/images/calamardoCuadro.jpg)
+![Cyber Monitoring](/assets/images/calamardobebo2.jpg)
 
 Supervisió contínua de sistemes i xarxes per detectar activitats sospitoses, malware i intents d’intrusió.  
 Inclou resposta a incidents i generació d’alertes en temps real.
 
 👉 **Més informació:**  
-[Visita la web](https://www.cybersecurity-guide.org/resources/what-is-threat-detection/)
+[Visita la web](https://www.microsoft.com/en-us/security/business/security-101/what-is-threat-detection-response-tdr)
 
 ---
