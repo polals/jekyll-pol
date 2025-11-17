@@ -3,8 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Pàgina amb Sintaxi Avançada
-permalink: /sintaxi-avancada/
 ---
 
 # Sintaxi Avançada en Markdown :sparkles:
